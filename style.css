@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    /* background-position: 100%; */
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0 3%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    max-width: 375px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.image-wrapper img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+main .content-wrapper {
+    padding: 2rem;
+    text-align: center;
+
+
+}
+
+.content-wrapper h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+.main-paragraph {
+    margin: 1rem 0;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+
+
+.plan-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+}
+
+.plan-information .annual-plan {
+    margin-left: 1rem;
+}
+
+.annual-plan h3 {
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan p {
+    color: hsl(224, 23%, 55%);
+}
+
+.first-half {
+    display: flex;
+    align-items: center;
+}
+
+.second-half a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.second-half a:hover {
+    color: hsla(245, 75%, 52%, 0.644);
+    text-decoration: none;
+}
+
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem 0;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 1rem 0;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 5px 5px 15px -6px rgba(0,0,0,0.81); 
+    box-shadow: 5px 5px 15px -6px rgba(0,0,0,0.81);
+}
+
+.payment-button:hover {
+    background-color: hsla(245, 75%, 52%, 0.644);
+}
+
+.just-cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: .9rem;
+    cursor: pointer;
+
+}
+
+.just-cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
